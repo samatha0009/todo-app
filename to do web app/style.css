@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #task-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="datetime-local"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #4CAF50;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
